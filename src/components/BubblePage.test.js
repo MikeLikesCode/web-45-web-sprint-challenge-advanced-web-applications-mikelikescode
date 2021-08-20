@@ -1,7 +1,4 @@
 import React from "react";
-import MutationObserver from "mutationobserver-shim";
-import axiosMock from "axios";
-
 import { render, screen, act, waitFor } from "@testing-library/react";
 import BubblePage from "./BubblePage";
 import fetchColorService from "../services/fetchColorService";
