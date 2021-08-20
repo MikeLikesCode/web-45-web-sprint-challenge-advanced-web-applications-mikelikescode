@@ -5,6 +5,9 @@ const fetchColorService = () => {
     .then(res => {
         return res.data
     })
+    .catch(err => {
+      return err
+    })
 }
 
 export default fetchColorService;
